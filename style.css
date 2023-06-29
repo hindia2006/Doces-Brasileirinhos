@@ -8,10 +8,26 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
-{
+*{
     margin: 0px;
     padding: 0px;
 }
 .pincipal{
-    ba
+    background-image: url(imagens/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+.container{
+    height: 100vh;
+     display: grid;     
+     grid-template-columns: 50% 50%;
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+
